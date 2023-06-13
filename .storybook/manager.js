@@ -20,10 +20,10 @@ const theme = create({
   inputBorder: "rgba(0,0,0,.3)",
   inputTextColor: "#333333",
   inputBorderRadius: 4,
-  brandTitle: "Bitovi Storybook",
-  brandUrl: "https://bitovi.com",
+  brandTitle: "ZzOzZ Storybook",
+  brandUrl: "https://zzozz.github.io",
   brandImage:
-    "https://2171535.fs1.hubspotusercontent-na1.net/hubfs/2171535/Bitovi_July_2016_Theme/Images/bitovi-logo.png",
+    "https://zzozz.github.io/assets/img/face.jpeg",
 });
 
 addons.setConfig({

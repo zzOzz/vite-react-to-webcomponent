@@ -10,7 +10,7 @@ export const Header = ({ text }: HeaderProps) => (
       <div>
         <img
           className={styles.logo}
-          src="https://new.bitovi.com/logos/bitovi-logo-red-1.svg"
+          src="https://via.placeholder.com/60x60"
         />
       </div>
       <h1 className={styles.logo}>{text}</h1>

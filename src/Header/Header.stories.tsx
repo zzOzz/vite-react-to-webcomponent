@@ -1,21 +1,21 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import React from 'react';
+import { StoryFn, Meta } from '@storybook/react';
 
-import { Header } from "./Header";
+import { Header } from './Header';
 
 export default {
-  title: "Components/Header",
+  title: 'Components/Header',
   component: Header,
-} as ComponentMeta<typeof Header>;
+} as Meta<typeof Header>;
 
-const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
-
-export const Without_Text = Template.bind({});
-Without_Text.args = {
-  text: "",
+export const Without_Text = {
+  args: {
+    text: '',
+  },
 };
 
-export const With_Text = Template.bind({});
-With_Text.args = {
-  text: "Hello World",
+export const With_Text = {
+  args: {
+    text: 'Hello World',
+  },
 };
